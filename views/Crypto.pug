@@ -1,0 +1,9 @@
+extends layout
+
+block layout-content
+  h2 API Crypto News
+    each c in crypto 
+        div.news
+            span h5 #{c.title}
+            a(href=`${c.url}`) read more.. 
+            p  #{c.source}           

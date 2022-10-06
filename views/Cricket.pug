@@ -1,0 +1,20 @@
+extends layout
+
+block layout-content
+  h2 Top 10 Popular Ranking
+    div.cricket 
+        table
+            tr
+                th.heading Rank   
+                th.heading Player Name
+                th.heading Country 
+                th.heading Rating 
+                th.heading Points 
+            tbody
+                each c in cricket 
+                    tr 
+                        td #{c.rank} 
+                        td #{c.name}
+                        td #{c.country}
+                        td #{c.rating}    
+                        td #{c.points}       

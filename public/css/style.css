@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Battambang&family=BhuTuka+Expanded+One&family=Bitter&family=Cormorant+SC:wght@400;700&family=Lato&family=Merriweather:ital@1&family=Passion+One&family=Poppins:wght@200;300;400;600;700&family=Roboto:ital@0;1&family=Space+Mono&family=Square+Peg&family=Ubuntu&display=swap');
+*{
+    padding: 0;
+    margin: 0;   
+}
+
+#back{
+    background: url(/images/earth.jpg);
+    height: 500px;   
+}
+.header-content{
+    display: flex;
+    flex-direction: row;   
+    background-color: black;
+    height: 60px;  
+}
+#site-name{
+    margin-top: 10px;
+}
+#site-name a{
+    text-decoration: none;
+    color: gold;
+    margin-left: 80px; 
+    
+}
+  #main-navigation{
+    flex: 1;
+    text-align: right;
+    padding-top: 10px;
+    margin-right: 40px;
+}
+  #main-navigation ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+  #main-navigation ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: azure;
+}
+  #main-navigation ul li a:hover{
+    color: gold;
+    transition: 1s;
+}
+.news{ 
+    margin: .5rem 10rem;
+    color: black;
+    background-color: rgb(211, 211, 211); 
+    opacity: 0.8;   
+}
+span{
+    font-family: 'Space Mono', monospace;
+    font-size: 22px;
+}
+.news a{
+    font-size: 15px;
+    color: blue;
+}
+.news p{
+    font-size: 18px;
+}
+.cricket{
+    color: aliceblue;   
+    margin: .5rem 25rem;  
+}
+h2{
+    color: aliceblue;
+    margin-top: 10px;
+
+}
+#mainpage{
+    color: gold;   
+    text-transform: uppercase;
+    height: 44em;
+    position: relative
+}
+#mainpage h1 {
+    margin: 0; 
+    font-size: 60px;
+    font-weight: 700;    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+.heading{
+    color: gold;
+}
